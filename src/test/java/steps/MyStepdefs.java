@@ -12,6 +12,8 @@ public class MyStepdefs {
     @Then("user print valid output")
     public void userPrintValidOutput() {
         System.out.println("User in valid creditions");
+
+        System.out.println("Git Changes");
     }
 
     @Then("user print Invalid output")
